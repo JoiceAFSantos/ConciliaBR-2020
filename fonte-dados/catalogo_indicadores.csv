@@ -1,0 +1,7 @@
+indicador,codigo_bcb,tipo_medida,unidade,periodicidade,url_consulta
+Cartão de crédito - volume de operações,25223,Quantidade,Milhões de unidades,Anual,https://api.bcb.gov.br/dados/serie/bcdata.sgs.25223/dados?formato=json
+Cartão de débito - volume de operações,25224,Quantidade,Milhões de unidades,Anual,https://api.bcb.gov.br/dados/serie/bcdata.sgs.25224/dados?formato=json
+Cheques - volume de operações,25225,Quantidade,Milhões de unidades,Anual,https://api.bcb.gov.br/dados/serie/bcdata.sgs.25225/dados?formato=json
+Débito direto - volume de operações,25226,Quantidade,Milhões de unidades,Anual,https://api.bcb.gov.br/dados/serie/bcdata.sgs.25226/dados?formato=json
+Cartão de débito - montante financeiro,25228,Valor,Milhões de reais,Anual,https://api.bcb.gov.br/dados/serie/bcdata.sgs.25228/dados?formato=json
+Cartão de crédito - montante financeiro,25229,Valor,Milhões de reais,Anual,https://api.bcb.gov.br/dados/serie/bcdata.sgs.25229/dados?formato=json
