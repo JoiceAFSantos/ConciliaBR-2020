@@ -93,9 +93,6 @@ API de dados abertos do Pix do Banco Central (serviço TransacoesPixPorMunicipio
 
 Os valores são do lado de quem paga, agrupados pelo município do pagador.
 
-### Acompanhamento
-
-Board do projeto: COLE_AQUI_O_LINK_DO_BOARD
 
 ### Roadmap
 
