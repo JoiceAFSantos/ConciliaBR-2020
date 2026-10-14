@@ -71,3 +71,35 @@ MeiosPagamento-BI/
 ## Roadmap do projeto
 
 Ver `docs/roadmap.md` para o detalhamento de cada etapa futura.
+
+## Etapa 2 — Pix por mês e por estado
+
+Nessa entrega entrei no Pix, que ficou de fora da Etapa 1 porque as séries antigas do Banco Central acabam em 2020 e o Pix só começou em novembro daquele ano.
+
+A página mostra quantos Pix foram feitos, quanto foi movimentado e o ticket médio, com filtro de mês e de estado, um gráfico da evolução mensal e um ranking dos estados.
+
+### Fonte dos dados
+
+API de dados abertos do Pix do Banco Central (serviço TransacoesPixPorMunicipio). Ela devolve um mês por chamada, então a consulta em Power Query (consultas-powerquery/pix_por_municipio.pq) chama a API para cada mês de 2025 e junta tudo numa tabela só.
+
+### Medidas DAX
+
+- Qtd_Pix: soma da quantidade de Pix de pessoas físicas e jurídicas
+- Valor_Pix: soma do valor de pessoas físicas e jurídicas
+- Ticket_Medio_Pix: valor dividido pela quantidade
+- Participacao_Estado: quanto cada estado representa do total do período
+
+### Observação
+
+Os valores são do lado de quem paga, agrupados pelo município do pagador.
+
+### Acompanhamento
+
+Board do projeto: COLE_AQUI_O_LINK_DO_BOARD
+
+### Roadmap
+
+- [x] Etapa 1 — Panorama geral por instrumento
+- [x] Etapa 2 — Pix por mês e por estado
+- [ ] Etapa 3 — Fraude e contestações (MED)
+- [ ] Entrega final — Consolidação dos meios de pagamento
